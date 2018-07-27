@@ -4,7 +4,7 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - https://javabeginnerstutorial.com/js/vue-js/what-is-vuejs/
 
 **1. Hello World with Vue.js**
-- https://javabeginnerstutorial.com/js/vue-js/hello-world-with-vuejs/
+- https://javabeginnerstutorial.com/js/vue-js/1-hello-world-with-vue-js/
 - All related files are placed inside '01_Hello World with Vuejs' folder
 - Code Files: index.html, index.js
 
