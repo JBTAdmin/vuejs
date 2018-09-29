@@ -13,4 +13,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '02_Template Syntax and Reactivity' folder
 - Code Files: index.html, index.js
 
-**3. Vue directives** [In Progress]
+**3. Introduction to Vue directives**
+- https://javabeginnerstutorial.com/vue-js/3-vue-directives/
+- All related files are placed inside '03_Introduction to Vue directives' folder
+- Code Files: index.html, index.js
+
+**4. Vue Devtools Setup** [In Progress]
