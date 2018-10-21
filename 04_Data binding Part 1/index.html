@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- text interpolations -->
+      <h1>{{ message }}</h1>
+      <p>For more info. on Vue, click {{ vueLink }}</p>
+      <!-- raw HTML interpolation -->
+      <p>With v-html directive:</br>
+        For more info. on Vue, click <span v-html="vueLink"></span>
+      </p>
+      <!-- JavaScript expressions -->
+      <p>
+        Length of the 'message' String: {{ message.length }} </br>
+        Value of PI: {{ Math.PI }} </br>
+        Today's date is: {{ new Date() }} </br>
+        Result of ternary expression is:
+          {{ message === "Hi everyone!" ? "Welcome to the World of Vue" : "Hola" }} </br>
+      </p>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+

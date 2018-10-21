@@ -18,4 +18,12 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '03_Introduction to Vue directives' folder
 - Code Files: index.html, index.js
 
-**4. Vue Devtools Setup** [In Progress]
+**4. Vue Devtools Setup**
+- https://javabeginnerstutorial.com/vue-js/4-vue-devtools-setup/
+
+**5. Data binding Part 1**
+- https://javabeginnerstutorial.com/vue-js/5-data-binding-p1/
+- All related files are placed inside '04_Data binding Part 1' folder
+- Code Files: index.html, index.js
+
+**6. Data binding Part 2** [In Progress]
