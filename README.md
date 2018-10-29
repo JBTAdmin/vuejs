@@ -26,4 +26,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '04_Data binding Part 1' folder
 - Code Files: index.html, index.js
 
-**6. Data binding Part 2** [In Progress]
+**6. Data binding Part 2**
+- https://javabeginnerstutorial.com/vue-js/6-data-binding-p2/
+- All related files are placed inside '05_Data binding Part 2' folder
+- Code Files: index.html, index.js, vueLogo.png
+
+**7. Conditional rendering Part 1 (v-if, v-else-if, v-else)** [In Progress]

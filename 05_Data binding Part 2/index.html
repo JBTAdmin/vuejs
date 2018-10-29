@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- text interpolations -->
+      <h1>{{ message }}</h1>
+      <p>
+        <input v-bind:disabled="isInputDisabled"/>
+      </p>
+      <div>
+        <img v-bind:src="logo" width="70" height="50"/>
+        <br/>
+        <a v-bind:href="vueLink" target="_blank">Vue official website</a>
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+
