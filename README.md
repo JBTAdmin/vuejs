@@ -31,4 +31,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '05_Data binding Part 2' folder
 - Code Files: index.html, index.js, vueLogo.png
 
-**7. Conditional rendering Part 1 (v-if, v-else-if, v-else)** [In Progress]
+**7. Conditional rendering Part 1 (v-if, v-else, v-else-if)**
+- https://javabeginnerstutorial.com/uncategorized/7-conditional-rendering-part-1/
+- All related files are placed inside '06_Conditional rendering Part 1' folder
+- Code Files: index.html, index.js
+
+**8. Conditional rendering Part 2 (v-if and v-show)** [In Progress]
