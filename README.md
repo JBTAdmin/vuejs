@@ -32,7 +32,7 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - Code Files: index.html, index.js, vueLogo.png
 
 **7. Conditional rendering Part 1 (v-if, v-else, v-else-if)**
-- https://javabeginnerstutorial.com/uncategorized/7-conditional-rendering-part-1/
+- https://javabeginnerstutorial.com/vue-js/7-conditional-rendering-part-1/
 - All related files are placed inside '06_Conditional rendering Part 1' folder
 - Code Files: index.html, index.js
 
