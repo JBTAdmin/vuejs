@@ -36,4 +36,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '06_Conditional rendering Part 1' folder
 - Code Files: index.html, index.js
 
-**8. Conditional rendering Part 2 (v-if and v-show)** [In Progress]
+**8. Conditional rendering Part 2 (v-if and v-show)**
+- https://javabeginnerstutorial.com/vue-js/8-conditional-rendering-part-2/
+- All related files are placed inside '07_Conditional rendering Part 2' folder
+- Code Files: index.html, index.js
+
+**9. Rendering Lists** [In Progress]

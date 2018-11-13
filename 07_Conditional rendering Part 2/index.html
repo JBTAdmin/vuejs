@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+	  <!-- v-if directive -->
+      <template v-if="display">
+        <h1>Welcome</h1>
+        <p>Hi there!</p>
+      </template>
+	  <!-- v-show directive -->
+      <p v-show="display">How are you doing?</p>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+
