@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Greetings</h2>
+      <!-- Iterating through array elements -->
+      <ul>
+        <li v-for="greeting in greetings" v-text=greeting></li>
+      </ul>
+      <!-- Accessing array elements along with thier index -->
+      <h2>Greetings with Index</h2>
+      <div v-for="(greeting, index) in greetings">
+          {{ index }}. {{ greeting}}
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+

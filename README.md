@@ -41,4 +41,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '07_Conditional rendering Part 2' folder
 - Code Files: index.html, index.js
 
-**9. Rendering Lists** [In Progress]
+**9. Rendering Lists Part 1 (Iterating over arrays)** 
+- https://javabeginnerstutorial.com/vue-js/9-rendering-lists-part-1/
+- All related files are placed inside '08_Rendering Lists Part 1' folder
+- Code Files: index.html, index.js
+
+**10. Rendering Lists Part 2 (Iterating over objects)** [In Progress]
