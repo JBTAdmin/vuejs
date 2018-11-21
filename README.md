@@ -46,4 +46,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '08_Rendering Lists Part 1' folder
 - Code Files: index.html, index.js
 
-**10. Rendering Lists Part 2 (Iterating over objects)** [In Progress]
+**10. Rendering Lists Part 2 (Iterating over objects)** 
+- https://javabeginnerstutorial.com/vue-js/10-rendering-lists-part-2/
+- All related files are placed inside '09_Rendering Lists Part 2' folder
+- Code Files: index.html, index.js
+
+**11. Listening to DOM events and Event modifiers** [In Progress]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Greetings</h2>
+      <!-- Iterating through array elements -->
+      <ul>
+        <li v-for="greeting in greetings" v-text=greeting></li>
+      </ul>
+      <!-- Accessing array elements along with thier index -->
+      <h2>Greetings with Index</h2>
+      <div v-for="(greeting, index) in greetings">
+          {{ index }}. {{ greeting}}
+      </div>
+      <hr/>
+      <!-- Iterating through objects -->
+      <h2>Object values</h2>
+      <div v-for="value in letters">{{ value }}</div>
+      <hr/>
+      <h2>Object key-value pairs</h2>
+      <div v-for="(value, key) in letters">
+        {{ key }} for {{ value }}
+      </div>
+      <hr/>
+      <h2>Object key-value and index</h2>
+      <div v-for="(value, key, index) in letters">
+        {{ key }} for {{ value }} - ({{ index }})
+      </div>
+      <hr/>
+      <!-- Iterating over an array of objects -->
+      <ul>
+        <li v-for="movie in movies" v-bind:key="movie.name">
+          <strong>Movie name:</strong> {{ movie.name }} and <br/>
+          <strong>Character:</strong> {{ movie.character }}
+        </li>
+      </ul>
+      <!-- Alternative method -->
+      <h4> Aliter </h4>
+      <ul>
+        <li v-for="movie in movies">
+          <div v-for="(value, key) in movie">
+            {{ key }}: {{ value }}
+          </div>
+        </li>
+      </ul>
+      <hr/>
+      <!-- Iterating over numbers -->
+      <div v-for="number in 5">
+        <strong> {{ number }}. </strong>
+        <span v-for="num in 3"> {{ num }} </span> 
+        &nbsp;
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+
