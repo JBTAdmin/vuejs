@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Welcome</h2>
+      <!-- Listening to click event with v-on directive -->
+      <button v-on:click="greet('howdy')">Say Hello</button>
+      <p> {{ message }} </p>
+      <h2>Event Modifiers</h2>
+      <!-- Using .once to modify click event -->
+      <button v-on:click.once="addOne">Add 1</button>
+      <p> {{ counter }} </p>
+      <!-- chaining event modifiers -->
+      <a href="https://vuejs.org/" v-on:click.prevent.self target="_blank">Open Vue
+        <p>Click me now</p>
+      </a>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+

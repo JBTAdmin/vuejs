@@ -52,3 +52,8 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - Code Files: index.html, index.js
 
 **11. Listening to DOM events and Event modifiers** [In Progress]
+- https://javabeginnerstutorial.com/vue-js/11-listening-to-dom-events-and-event-modifiers/
+- All related files are placed inside '10_Listening to DOM events' folder
+- Code Files: index.html, index.js
+
+**12. Listening to keyboard and mouse events** [In Progress]
