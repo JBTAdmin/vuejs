@@ -57,3 +57,8 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - Code Files: index.html, index.js
 
 **12. Listening to keyboard and mouse events** [In Progress]
+
+**13. Let's use shorthands**
+- https://javabeginnerstutorial.com/vue-js/13-shorthands-for-v-bind-and-v-on/
+- All related files are placed inside '12_Lets use shorthands' folder
+- Code Files: index.html, index.js
