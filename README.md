@@ -56,9 +56,14 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '10_Listening to DOM events' folder
 - Code Files: index.html, index.js
 
-**12. Listening to keyboard and mouse events** [In Progress]
+**12. Listening to keyboard and mouse events** 
+- https://javabeginnerstutorial.com/vue-js/12-listening-to-keyboard-and-mouse-events/
+- All related files are placed inside '11_Listening to Keyboard and Mouse events' folder
+- Code Files: index.html, index.js
 
 **13. Let's use shorthands**
 - https://javabeginnerstutorial.com/vue-js/13-shorthands-for-v-bind-and-v-on/
 - All related files are placed inside '12_Lets use shorthands' folder
 - Code Files: index.html, index.js
+
+**14. Two-way data binding and modifiers** [In Progress]

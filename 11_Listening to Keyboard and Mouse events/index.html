@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Welcome</h2>
+      <!-- Using key modifiers with keyboard events -->
+      <button v-on:keyup.enter="greet">greet</button>
+      <hr/>
+      <div>
+        <!-- Passing arguments with original DOM event -->
+        <button v-on:mouseover="showRole('developer', $event)">Hover over me!</button>
+        {{ role }} 
+        <p>{{ "Tag Name:" + tagName }}</p>
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+
