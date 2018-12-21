@@ -66,4 +66,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '12_Lets use shorthands' folder
 - Code Files: index.html, index.js
 
-**14. Two-way data binding and modifiers** [In Progress]
+**14. Two-way data binding with v-model**
+- https://javabeginnerstutorial.com/vue-js/14-two-way-binding-v-model/
+- All related files are placed inside '13_Two-way data binding with v-model' folder
+- Code Files: index.html, index.js
+
+**15. Value bindings** [In Progress]

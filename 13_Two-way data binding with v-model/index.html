@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Welcome</h2>
+      <div>
+        <!-- two-way binding with v-model -->
+        Greeting Message:
+        <input type="text" v-model="message"></input> 
+        <p>The message is: {{ message }}</p>
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+  </body>
+</html>
+
