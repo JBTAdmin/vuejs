@@ -1,0 +1,14 @@
+.success {
+  color: green;
+  font-weight: bold;
+  font-size: 70px;
+}
+.underline {
+  text-decoration-color: red;
+  text-decoration-line: underline;
+}
+.bcg {
+  background-color: aqua;
+  padding: 5px;
+  width: fit-content;
+}

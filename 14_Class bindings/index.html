@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Welcome</h2>
+      <div> 
+        <!-- class bindings: Objects -->
+        <div class="underline" :class="{ success : successFlag, bcg : bcgFlag }">
+            Hello!!
+        </div>
+        <p>The value of successFlag is {{ successFlag }}</p>
+        <!-- class bindings: Arrays -->
+        <div class="underline" :class="[successClass, bcgClass]">
+          Array Bindings.
+        </div> 
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+  </body>
+</html>
+

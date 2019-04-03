@@ -51,7 +51,7 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '09_Rendering Lists Part 2' folder
 - Code Files: index.html, index.js
 
-**11. Listening to DOM events and Event modifiers** [In Progress]
+**11. Listening to DOM events and Event modifiers**
 - https://javabeginnerstutorial.com/vue-js/11-listening-to-dom-events-and-event-modifiers/
 - All related files are placed inside '10_Listening to DOM events' folder
 - Code Files: index.html, index.js
@@ -71,4 +71,9 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '13_Two-way data binding with v-model' folder
 - Code Files: index.html, index.js
 
-**15. Value bindings** [In Progress]
+**18. Class bindings**
+- https://javabeginnerstutorial.com/vue-js/18-class-bindings/
+-  All related files are placed inside '14_Class bindings' folder
+- Code Files: index.html, index.js, style.css
+
+**18. Style bindings** [In Progress]
