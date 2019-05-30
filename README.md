@@ -71,9 +71,14 @@ This repository is the home for all the code you stumble upon in *Java Beginners
 - All related files are placed inside '13_Two-way data binding with v-model' folder
 - Code Files: index.html, index.js
 
+**15. Form input bindings**
+- https://javabeginnerstutorial.com/vue-js/15-form-input-bindings/
+- All related files are placed in '15_Form input bindings' folder
+- Code files: index.html, index.js
+
 **18. Class bindings**
 - https://javabeginnerstutorial.com/vue-js/18-class-bindings/
 -  All related files are placed inside '14_Class bindings' folder
 - Code Files: index.html, index.js, style.css
 
-**18. Style bindings** [In Progress]
+**19. Inline style bindings** [In Progress]

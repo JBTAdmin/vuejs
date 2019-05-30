@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Vue!</title>
+    <!-- including Vue with development version CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h2>Welcome</h2>
+      <div>
+        <h4>Single checkbox with a boolean value</h4>
+        <!-- Form input bindings: single checkbox -->
+        <input type="checkbox" id="single" v-model="chosen">
+        <label for="single">{{ chosen }}</label>
+      </div>
+      <hr/>
+      <div>
+        <h4>Multiple checkboxes with values of an array</h4>
+        <!-- multiple checkboxes -->
+        <input type="checkbox" id="cars" value="Cars" v-model="checkedFilms">
+        <label for="cars">Cars</label>
+        <input type="checkbox" id="brave" value="Brave" v-model="checkedFilms">
+        <label for="brave">Brave</label>
+        <input type="checkbox" id="up" value="Up" v-model="checkedFilms">
+        <label for="up">Up</label>
+        <input type="checkbox" id="ratatouille" value="Ratatouille" v-model="checkedFilms">
+        <label for="ratatouille">Ratatouille</label>
+        <br/>
+        <span>Selected pixar films are: {{ checkedFilms }}</span>
+      </div>
+      <hr/>
+      <div>
+        <h4>Radio buttons</h4>
+        <input type="radio" id="html" value="HTML" v-model="selected">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" value="CSS" v-model="selected">
+        <label for="two">CSS</label>
+        <br>
+        <input type="radio" id="javascript" value="JavaScript" v-model="selected">
+        <label for="JavaScript">JavaScript</label>
+        <br>
+        <span>Selected option: {{ selected }}</span>
+      </div>
+      <hr/>
+      <div>
+        <h4>Single select dropdown</h4>
+        <select v-model="singleSelect">
+          <option disabled value="">Please select one</option>
+          <option>Chocolate</option>
+          <option>Ice cream</option>
+          <option>Green Tea</option>
+        </select>
+        <span>I love: {{ singleSelect }}</span>
+      </div>
+      <hr/>
+      <div>
+        <h4>Multiselect dropdown</h4>
+        <select v-model="multiselect" multiple>
+          <option value="Dance">Dance</option>
+          <option value="Swim">Swim</option>
+          <option value="Paint">Paint</option>
+          <option value="Play tennis">Play tennis</option>
+        </select>
+        <br>
+        <span>I know to: {{ multiselect }}</span>
+      </div>
+      <hr/>
+      <div>
+        <h4>Handling dynamic options</h4>
+        <select v-model="dynamicSelection">
+          <option v-for="letter in alphabet" v-bind:value="letter.word">
+            {{ letter.for }}
+          </option>
+        </select>
+        <span>Selected letter: {{ dynamicSelection }}</span>
+      </div>
+    </div>
+    <!-- including index.js file -->
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+  </body>
+</html>
+
